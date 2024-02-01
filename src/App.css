@@ -1,0 +1,136 @@
+* {
+  min-width: 0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+button .nav-link {
+  color: #0A3051;
+  font-weight: bold;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#toggler-color {
+  color: #0A3051;
+}
+
+.form-header {
+  color: #0A3051;
+  font-weight: bold;
+  font-family: Verdana,Tahoma, sans-serif;
+  padding: 20px;
+}
+.field-rows {
+  margin-top: 15px;
+}
+
+.label-stuff {
+  margin-right: 0;
+}
+
+.first-row-spacing {
+  margin-top: 10px;
+}
+
+.second-row-spacing {
+  margin-top: 10px;
+}
+
+.bordered-form-group {
+  border: 2px solid gray; /* Customize the border style, color, and width as needed */
+  border-color: rgba(114, 114, 114, .5);
+  padding: 20px; /* Add padding to create some space between the border and form controls */
+  margin-bottom: 15px; /* Optional: Add margin to create space between form groups */
+  border-radius: 10px;
+}
+
+.vertical-line {
+  border-left: 1px solid #000; /* Adjust the color and thickness as needed */
+  height: 100px; /* Adjust the height as needed */
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.homepage-button {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo-image {
+  margin: 10px;
+}
+
+.link-text {
+  color: #0A3051;
+}
+
+.navbar-toggler-icon {
+  color: #0A3051;
+}
+
+.title-text {
+  text-align: center;
+  color:#0A3051;
+  margin: 20px;
+}
+
+.site-header {
+  background-color: darkgray;
+}
+
+.site-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  padding: 20px 0;
+  margin-top: 1rem;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
