@@ -6,8 +6,8 @@ import '../App.css';
 
 const HomePage = () => {
     const customButtonStyle = {
-        width: '200px',
-        height: '200px'
+        height: '200px',
+        fontSize: '60px'
     }
 
     return (
@@ -15,17 +15,17 @@ const HomePage = () => {
             <Container>
                 <Row>
                     <Col className="homepage-button" lg='6'>
-                        <Link to='/change-request-entry' style={{ textDecoration: 'none', color: 'inherit' }}>
-                            <Button size="lg" style={customButtonStyle} block>Enter New Change Request</Button>
+                        <Link to='/ciar' style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <Button size="lg" style={customButtonStyle} block>CIARs</Button>
                         </Link>
                     </Col>
                     <Col className="homepage-button" lg='6'>
-                        <Link to='/change-request-edit' style={{ textDecoration: 'none', color: 'inherit' }}>
-                            <Button size="lg" style={customButtonStyle} block>Edit Existing Change Request</Button>
+                        <Link to='/change-request' style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <Button size="lg" style={customButtonStyle} block>Change Requests</Button>
                         </Link>
                     </Col>
                 </Row>
-                <Row>    
+                {/* <Row>    
                     <Col className="homepage-button" lg='6'>
                         <Link to='/ciar-entry' style={{ textDecoration: 'none', color: 'inherit' }}>
                             <Button size="lg" style={customButtonStyle} block>Enter New CIAR</Button>
@@ -36,7 +36,7 @@ const HomePage = () => {
                             <Button size="lg" style={customButtonStyle} block>Edit Existing CIAR</Button>
                         </Link>
                     </Col>
-                </Row>
+                </Row> */}
             </Container>
         </Container>
     );
